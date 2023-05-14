@@ -137,10 +137,10 @@ nav {
 
 .login {
     text-align: center;
-    width: 60px;
+    width: 100px;
     position: relative;
     background: transparent;
-    border: 2px solid #fff;
+    border: 3px solid #fff;
     outline: none;
     border-radius: 6px;
     cursor: pointer;
@@ -177,6 +177,8 @@ header {
     overflow: hidden;
     height: 70vh;
     margin-bottom: 5rem;
+    background-size: 5px 5px;
+    background-image: radial-gradient(#000 1%, transparent 1%);
 }
 
 .header__container {
@@ -211,6 +213,7 @@ header {
 .categories__left {
     margin-right: 2rem;
 }
+
 .categories__left p {
     margin: 1rem 0 3rem;
 }
@@ -270,7 +273,9 @@ header {
 /* ==================== POPULAR COURSES ==================== */
 
 .courses {
-    margin-top: 10rem;
+    margin-top: 5rem;
+    background-size: 5px 5px;
+    background-image: radial-gradient(#000 1%, transparent 1%);
 }
 
 .courses__container {
@@ -352,6 +357,7 @@ header {
 
 .testimonial {
     padding-top: 2rem;
+    background-color: #005205;
 }
 
 .avatar {
