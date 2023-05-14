@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/shsadmission.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>SHS Online Admission Form</title>
+	
+	
+	<!-- GOOGLE FONTS (MONTSERRAT)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+<!--=============== PLACE NAVBAR HERE. LOVE U BRIAN <3 ==================-->
+	<nav>
+        <div class="container nav__container">
+            <div class="logo">
+					<a href="index.html"><img src="./images/cscplus.png"></a>
+            </div>
+
+            <ul class="nav__menu">
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="about.html"> About </a></li>
+                <li><a href="courses.html"> Admission </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+                <li><a href="contact.html"> Forums </a></li>
+                <li><a href="contact.html"> Gallery</a></li>
+                <li class="login"><a href="login.html"> Login </a></li>
+            </ul>
+
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+<!--========================== NAVBAR END ===============================-->
+	
+	
+<!--========================== START ===============================-->
+	
+	<h1 class="container__text">Senior High School Online Admission Form</h1>
+
+	<div class="container-wrapper">
+	
+		<form class="form" action="https://formsubmit.co/crowtohru@gmail.com" method=" post">
+		
+<!-- Honeypot -->
+		<input type="text" name="-honey" style="display:none;">
+
+<!-- Remove Captcha -->
+		<input type="hidden" name="-captcha" value="false">
+
+<!-- Thank You Page -->
+
+<!--Duplicate Index file and add /thankYouPage before the extension. Name it thankYouPage.html. Delete everything from form to /form. Put a Thank You note-->
+		<input type="hidden" name="thankYouPage" value="yourPageLink/thankYouPage.html">
+
+<!--=========================== First Part ==============================-->
+
+		<div class="wrapper-card">
+			<h3>Email</h3>
+			<input type="text" size="130" name="email" id="email" required>
+		</div>
+		
+		<div class="wrapper-card">
+			<input type="checkbox" name="IAgree" id="strand-list" required><p>I hereby certify that the information given are true and correct. I allow College of St. Catherine Quezon City to use my child's details to create and/or update his/her learner profile in the Learner Information System. The information herein shall be treated as confidential in compliance with the Data Privacy Act of 2012.</p>
+
+		</div>
+	</div>
+		
+<!--========================== Second Part ==============================-->
+
+		
+		<div class="container-wrapper">
+		
+			<div class="parts">
+				<h3>STUDENT INFORMATION</h3>
+			</div>
+			
+			<div class="wrapper-card">
+				<h3>Given Name</h3>
+				<input type="text" size="130" name="givenName" id="givenName" required>
+			</div>
+					
+			<div class="wrapper-card">
+				<h3>Middle Name</h3>
+				<input type="text" size="130" name="middleName" id="middleName">
+			</div>
+			
+			<div class="wrapper-card">
+				<h3>Surname</h3>
+				<input type="text" size="130" name="surname" id="surname" required>
+			</div>
+			
+			<div class="wrapper-card">
+				<h3>Extensions e.g., Jr., III (if applicable)</h3>
+				<input type="text" size="130" name="extensions" id="extensions">
+			</div>
+			
+			<div class="wrapper-card">
+				<h3>Contact Number</h3>
+				<input type="text" size="130" name="contactNumber" id="contactNumber" required>
+			</div>
+			
+			<div class="wrapper-card">
+				<h3>Date of Birth (MM/DD/YYYY)</h3>
+				<input type="date" name="birthdate" id="birthdate" max="2023-05-15" required>
+			</div>
+			
+			<div class="wrapper-card">
+				<h3>Age</h3>
+				<input type="text" size="130" name="age" id="age" required>
+			</div>
+
+			<div class="wrapper-card">
+				<h3>Grade Level</h3>
+				<select name="gradelevel" id="gradelevel-list" required>
+					<option disabled>Please select an option.</option>
+					<option>Grade 11</option>
+					<option>Grade 12<option>
+				</select>
+			</div>
+		
+			<div class="wrapper-card">
+				<h3>Strand</h3>
+				<select name="strand" id="strand-list" required>
+					<option disabled>Please select an option.</option>
+					<option>ABM (Accountancy, Business and Management)</option>
+					<option>GA (General Academic Strand)</option>
+					<option> HUMSS (Humanities and Social Sciences)</option>
+					<option>STEM (Science, Technology, Engineering, and Mathematics)</option>
+					<option>TVL-Home Economics</option>
+				</select>
+			</div>
+			
+			<div class="wrapper-card">
+				<h3>Student Type</h3>
+				<select name="studentType" id="studentType-list" required>
+					<option disabled>Please select an option.</option>
+					<option>Old</option>
+					<option>New<option>
+				</select>
+			</div>
+			
+			<div class="wrapper-card">
+				<h3>Last School Attended</h3>
+				<input type="radio" name="lastSchool" value="lastSchool"><p>College of St. Catherine Quezon City</p> <br>
+				<input type="radio" name="lastSchool" value="otherSchool"><p>Other:</p><input type="text" size="100"placeholder="Please specify the school." required>
+			</div>
+			
+	
+			<div class="wrapper-card">
+				<h3>Learner's Reference Number</h3>
+				<input type="text" size="130"name="LRN" id="LRN" required>
+			</div>	
+		</div>
+
+<!--========================== Third Part ==============================-->
+
+		<div class="container-wrapper">
+		
+			<div class="parts">
+				<h3>PARENT/GUARDIAN INFORMATION</h3>
+			</div>
+			
+			<div class="wrapper-card">
+				<h3>Father's Name (Surname, Given Name, Middle Name)</h3>
+				<input type="text" size="130"name="fatherName" id="fatherName">
+			</div>
+			
+			<div class="wrapper-card">
+				<h3>Mother's Name (Surname, Given Name, Middle Name)</h3>
+				<input type="text" size="130"name="motherName" id="motherName">
+			</div>
+			
+			<div class="wrapper-card">
+				<h3>Contact Number</h3>
+				<input type="text" size="130"name="surname" id="surname">
+			</div>
+		</div>
+		
+<!--========================== Last Part ==============================-->
+		
+
+		<div class="container-wrapper">
+		
+			<div class="parts">
+				<h3>STUDENT SURVEY</h3>
+			</div>
+
+			<div class="wrapper-card">
+				<h3>Factors you consider in choosing CSCQC</h3>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Distance</p> <br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Tuition fee </p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Quality of education </p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>School ambiance </p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>School Credibility </p><br>
+					<input type="checkbox" name="otherSchool" id="otherSchool"><p>Other:</p><input type="text" size="100"placeholder="Please specify your answer.">
+			</div>		
+			
+			<div class="wrapper-card">
+				<h3>How did you find out about CSCQC?</h3>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Facebook Ads </p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Career fair</p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Friends </p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Relatives </p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Posters </p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Flyers</p> <br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Seminar </p><br>
+				<input type="checkbox" name="otherSchool" id="otherSchool"><p>Other:</p><input type="text" size="100"placeholder="Please specify your answer.">
+			</div>
+			
+			<div class="wrapper-card">
+				<h3>As the new normal brought by COVID-19, do you agree in BLENDED LEARNING (Combination of Distant and Face-to-Face) as the delivery mode of instruction this S.Y. 2022-2023?</h3>
+				<input type="radio" name="surveyFactor" value="surveyFactorAgree"><p>Agree</p> <br>
+				<input type="radio" name="surveyFactor" value="surveyFactorDisagree"><p>Disagree</p>
+			</div>
+			
+			
+			<div class="wrapper-card">
+				<h3>What devices are available at home that the learner can use for learning?</h3>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Personal computer (PC)</p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Laptop</p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Smartphone</p> <br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Tablet</p> <br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Cable TV </p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Non-cable TV </p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Radio </p><br>
+				<input type="checkbox" name="otherSchool" id="otherSchool"><p>Other:</p><input type="text" size="60"placeholder="Please specify your answer.">
+			</div>
+			
+			<div class="wrapper-card">
+				<h3>How do you connect to the internet?</h3>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Mobile data</p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Own broadband internet (DSL, Wireless fiber)</p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Computer shop </p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Other places outside the home with internet connection </p><br>
+				<input type="checkbox" name="otherSchool" id="otherSchool"><p>Other:</p><input type="text" size="100"placeholder="Please specify your answer.">
+			</div>
+			
+			<div class="wrapper-card">
+				<h3>Do you have a way to connect to the internet?</h3>
+				<input type="radio" name="surveyFactor" value="surveyFactorYes"><p>Yes</p><br>
+				<input type="radio" name="surveyFactor" value="surveyFactorNo"><p>No</p><br>
+			</div>
+			
+			<div class="wrapper-card">
+				<h3>How does your child go to school?</h3>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Public commute</p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>School service</p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Family owned vehicle</p><br>
+				<input type="checkbox" name="surveyFactor" id="surveyFactor"><p>Walking</p><br>
+				<input type="checkbox" name="otherSchool" id="otherSchool"><p>Other:</p><input type="text" size="100"placeholder="Please specify your answer.">
+			</div>
+			
+			<div class="wrapper-card">
+				<h3>How many household members in your home are studying in CSCQC?</h3>
+				<input type="text" name="household" id="household" required>
+			</div>
+					
+		<button type="button" class="admission__button">
+			<span class="button__text"> Submit </span>
+			<span class="button__icon">
+				<ion-icon name="arrow-forward-outline"></ion-icon>
+			</span>
+		</button>
+		<style>
+			.admission__button {
+				display: inline-flex;
+				height: 50px;
+				padding: 0;
+				background: #009578;
+				border: none;
+				outline: none;
+				border-radius: 5px;
+				overflow: hidden;
+				font-family: 'Montseratt', sans-serif;
+				font-size: 16px;
+				font-weight: 500;
+				cursor: pointer;
+				width: 51%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.admission__button:hover {
+				background: #008168;
+			}
+
+			.admission__button:active {
+				background: #006e58;
+			}
+
+			.button__text {
+				display: inline-flex;
+				align-items: center;
+				text-align: center;
+				padding: 0 15.5rem;
+				color: #fff;
+				height: 100%;
+			}
+
+			.button__icon {
+				display: inline-flex;
+				align-items: Center;
+				height: 100%;
+				font-size: 2.5rem;
+				color: #fff;
+				background: rgba(0, 0, 0, 0.08);
+				padding: 0 -100rem;
+				text-align: center;
+			}
+		</style>
+		</form>
+	
+		
+	</div>
+	
+	
+<!--============================ Footer =================================-->	
+
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo"></a>
+                <p><img src="./images/cscqc.png" class="footer__logo"></p>
+            </div>
+
+            <div class="footer__2">
+                <h4> Permalinks </h4>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="about.html"> About </a></li>
+                <li><a href="admission.html"> Admission </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+                <li><a href="forums.html"> Forums </a></li>
+                <li><a href="gallery.html"> Gallery </a></li>
+            </div>
+
+            <div class="footer__3">
+                <h4> Primary </h4>
+                <ul class="privacy">
+                    <li><a href="#"> Privacy Policy </a></li>
+                    <li><a href="tos.html"> Terms and Conditions </a></li>
+                    <li><a href="#"> Refund Policy </a></li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4> Contact Us </h4>
+                <div>
+                    <p> +01 234 5678 </p>
+                    <p> cscqc@gmail.com </p>
+                </div>
+                <ul class="footer__socials">
+                    <li>
+                        <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-instagram-akt"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+            <div class="footer__copyright">
+                <small> Copyright &copy; CSC+ Website </small>
+            </div>
+    </footer>
+
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
