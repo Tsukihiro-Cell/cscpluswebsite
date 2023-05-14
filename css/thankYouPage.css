@@ -1,0 +1,32 @@
+html body{
+    background-color: #006607;
+}
+
+section{
+    background-color: #004505;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5%;
+    border-radius: 3%;
+}
+
+.brat {
+    padding-left: 380px;
+    margin-top: 30px;
+}
+
+.gitna{
+    text-align: center;
+    font-family: Montserrat;
+    margin-top: 2%;
+    color: #fff;
+    line-height: 1;
+}
+
+.taas{
+    font-size: 30px;
+}
+
+.baba{
+    font-size: 20px;
+}
