@@ -119,5 +119,31 @@
                 <small> Copyright &copy; CSC+ Website </small>
             </div>
     </footer>
+	
+	 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1  ,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      // when window width is >= 600px
+      breakpoints: {
+        600: {
+            slidesPerView: 2
+        }
+      }
+    });
+    </script>
 </body>
 </html>
