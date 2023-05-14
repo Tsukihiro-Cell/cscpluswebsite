@@ -1,0 +1,96 @@
+
+html, body {
+	background-color:#006607;
+}
+
+
+h1 {
+	text-align:center;
+	color:#fff;
+	font-family: Montserrat;
+}
+
+h3 {
+	color:#aaa;
+	font-size: 20pt;
+	font-family:Montserrat;
+}
+
+.container__text {
+	margin-top: 6rem;
+}
+
+.container-wrapper {
+	overflow: hidden;
+	margin-left:300px;
+	margin-right: 300px;
+	margin-bottom:20px;
+	padding:80px;
+    background: #001D02;
+    border-radius: 20px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	border:0px;
+	border-bottom:1px solid;
+	background:transparent;
+	color:#fff;
+}
+
+p {
+	color:#fff;
+	display: inline-block;
+	margin: 20px;
+	line-height:1.5;
+	font-size: 18pt;
+	font-family: Montserrat;
+}
+
+[type="checkbox"] {
+	padding-left: 300px;
+	display: inline-block;
+	padding-left: 300px;
+}
+
+.parts {
+	overflow: hidden;
+    background: #001D02;
+    border-radius: 20px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+
+.parts h3 {
+	text-align:center;
+	color:#fff;
+}
+
+
+.wrapper-card {
+	overflow: hidden;
+    background: #004505;
+	 padding:70px;
+	margin-bottom:20px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+	border-top: 10px #7e7e7e solid;
+	
+}
+
+input {
+	margin-top: 2rem;
+	font-size: 16px;
+}
+
+select {
+	margin-top: 1rem;
+	width: 400px;
+	height: 40px;
+	border: 2px solid #000;
+  }
+
+option {
+	font-size: 20px;
+}
